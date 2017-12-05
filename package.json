@@ -1,0 +1,76 @@
+{
+  "name": "webpack-scaffold",
+  "version": "1.0.0",
+  "description": "自用webpack脚手架",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --host 0.0.0.0  --open --config ./build/webpack.dev.js",
+    "build": "webpack --config ./build/webpack.prod.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cybs/webpack-scaffold.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Cybs",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cybs/webpack-scaffold/issues"
+  },
+  "homepage": "https://github.com/Cybs/webpack-scaffold#readme",
+  "devDependencies": {
+    "autoprefixer": "^7.1.4",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.0.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "clean-webpack-plugin": "^0.1.16",
+    "css-loader": "^0.28.7",
+    "ejs-loader": "^0.3.0",
+    "eslint": "^4.7.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-html": "^3.2.2",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "file-loader": "^0.11.2",
+    "html-webpack-harddisk-plugin": "^0.1.0",
+    "html-webpack-plugin": "^2.30.1",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.5.3",
+    "postcss-loader": "^2.0.6",
+    "px2rem-loader": "^0.1.7",
+    "resolve-url-loader": "^2.1.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "uglify-es": "^3.1.2",
+    "uglifyjs-webpack-plugin": "^1.0.0-beta.2",
+    "underscore-template-loader": "^0.8.0",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.8.2",
+    "webpack-merge": "^4.1.0"
+  },
+  "dependencies": {
+    "jquery": "^1.12.4",
+    "lib-flexible": "^0.3.2",
+    "normalize.css": "^7.0.0",
+    "slick-carousel": "^1.7.1",
+    "webpack-zepto": "0.0.1"
+  },
+  "browserslist": {
+    "production": [
+      "last 2 version",
+      "ie 9"
+    ],
+    "development": [
+      "last 1 version"
+    ]
+  }
+}
